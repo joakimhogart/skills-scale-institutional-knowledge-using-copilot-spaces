@@ -1,13 +1,14 @@
 name: Step 2
 
 on:
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed
-    paths:
-      - "docs/**"
+  workflow_dispatch
+  #pull_request:
+  #  branches:
+  #    - main
+  #  types:
+  #    - closed
+  #  paths:
+ #     - "docs/**"
 
 permissions:
   contents: write
